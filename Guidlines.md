@@ -1,19 +1,21 @@
-# Naming conventions
+# Guidlines
+
+## Naming conventions
 
 The naming convention helps with consitent naming and identifying what each stack is.
 
-## Symbols
+### Symbols
 
-\* = Any Character <br>
-\+ = Number <br>
-\# = Letter <br>
-% = Letter or number <br>
-" = Nato Alphabet <br>
-? = word <br>
-() = Optional <br>
-{} = Interpolation using camel casing <br>
+\* = Any Character  
+\+ = Number  
+\# = Letter  
+% = Letter or number  
+" = Nato Alphabet  
+? = Word  
+() = Optional  
+{} = Interpolation using camel casing
 
-## Naming Table
+### Naming Table
 
 | Stack      | Technical ID | Reference Name          | Official Name                | Example 1                               | Example 2                           |
 | ---------- | ------------ | ----------------------- | ---------------------------- | --------------------------------------- | ----------------------------------- |
@@ -22,7 +24,7 @@ The naming convention helps with consitent naming and identifying what each stac
 | Programs   | P\#%%%       | {officialNameW/O"Code"} | (Code) ?(?-\*\*\*\*)         | PC133 - caesium - Code Caesium          | PRT02 - roamingTool - Roaming-Tool  |
 | Components | C\+\+\+\+    | {functionType}          | ?(?-\*\*\*\*)                | C1508 - mainMenuIn - Main Menu          | C4587 - alertModalOut - Alert-Modal |
 
-# Types
+## Types
 
 Types hint at the purpose of the device, server or component and helps ensuring it is only doing one thing. This way there should't be any side effects.
 
@@ -35,10 +37,11 @@ Types hint at the purpose of the device, server or component and helps ensuring 
 | Inquire     | inq   | Communicating with a server to get data                                 | Components      |
 | Engage      | eng   | Communicating with a server to post or modify data                      | Components      |
 
-# Base User Roles
+## Base User Roles
 
-<p>The Base User Roles are a general way categorizing different levels of access. For each individual program, different names and sub levels can be used, but they all need to have a base role assigned, for the global eco system. They can also be thought of as global role identifiers or a broad category. Imagine a Cessna and Airbus A380, which can do different things, but are both categorized as fixed-wing aircraft.</p>
-<p>The naming and structure of the sub-roles just need to fit for it's environment. A user can have multiple roles.</p>
+The Base User Roles are a general way categorizing different levels of access. For each individual program, different names and sub levels can be used, but they all need to have a base role assigned, for the global eco system. They can also be thought of as global role identifiers or a broad category. Imagine a Cessna and Airbus A380, which can do different things, but are both categorized as fixed-wing aircraft.
+
+The naming and structure of the sub-roles just need to fit for it's environment. A user can have multiple roles.
 
 |           | Description                                                            | Intended for                                          |
 | --------- | ---------------------------------------------------------------------- | ----------------------------------------------------- |
@@ -46,11 +49,12 @@ Types hint at the purpose of the device, server or component and helps ensuring 
 | Admin     | Is allowed to manipulate settings for a given program and manage users | Team-Leaders, Project-Managers                        |
 | Unit      | Can use program, within the limits set by an Admin                     | Endusers, Employees                                   |
 
-# Requiered files
+## Requiered files
 
-Different files are requiered, depending on what something does. Example files are attached.
+Different files are requiered, depending on what something does. Example files can be found in schema folder.
 
-| File Name | File Type | Content                                                                     | Requiered for                | If                   |
-| --------- | --------- | --------------------------------------------------------------------------- | ---------------------------- | -------------------- |
-| roles     | .json     | Detailed description of avaiable roles and their permissions                | programs                     | an account is needed |
-| structure | .md       | Details of the structure (brief description, list of devices, servers, etc) | server, programs, components | always               |
+| File Name | File Type   | Content                                                                     | Requiered for                | If                   |
+| --------- | ----------- | --------------------------------------------------------------------------- | ---------------------------- | -------------------- |
+| roles     | .json       | Detailed description of avaiable roles and their permissions                | programs                     | an account is needed |
+| structure | .md         | Details of the structure (brief description, list of devices, servers, etc) | server, programs, components | always               |
+| colors    | .sass, .css | Liste of colors, containing hex, rgba and hsla values                       | programs, components         | own colors are used  |

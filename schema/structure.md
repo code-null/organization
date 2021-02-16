@@ -1,18 +1,24 @@
 # Name goes here
 
-<p>Description goes here</p>
+Description goes here
 
-# Technical Details
+## Technical Details
 
 | Stack | Technical ID | Reference Name | Official Name | Type | Requieres Accounts |
 | ----- | ------------ | -------------- | ------------- | ---- | ------------------ |
 | xxxx  | xxxx         | xxxx           | xxxx          | xxxx | true/false         |
 
-# Dependencies
+## Dependencies to other Devices, Server, Programms, Components
 
 - [Name with link if avaiable]()
 
-# Exposed APIs
+## Databases
+
+| Host | Type | Database Name | Used for |
+| ---- | ---- | ------------- | -------- |
+| xxxx | xxxx | xxxx          | xxxx     |
+
+## Exposed APIs
 
 None, table that describes the APIs or link to a separte documentation file
 
@@ -22,10 +28,10 @@ None, table that describes the APIs or link to a separte documentation file
 | ---------- | ---- | ----------------- | ------------------------------ | ---------------- |
 | /feed/post | POST | Creates new posts | title: string, content: string | success: boolean |
 
-# Notes
+## Notes
 
 Anything else that should be mentioned
 
-# License
+## License
 
 [License Name with link]()
