@@ -1,4 +1,4 @@
-# Guidlines
+# Guidelines
 
 ## Naming conventions
 
