@@ -2,6 +2,11 @@
 
 Description goes here
 
+## Status
+
+Stage: Pre-Alpha / Alpha / Beta / Released / Deprecated
+Latest Stable Version: xxx
+
 ## Technical Details
 
 | Stack | Technical ID | Reference Name | Official Name | Type | Requieres Accounts |

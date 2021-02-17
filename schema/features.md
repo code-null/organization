@@ -8,6 +8,6 @@
 
 ## Planed
 
-| Name | Short Description | Planed for Version |
-| ---- | ----------------- | ------------------ |
-| xxxx | xxxx              | xxxx               |
+| Name | Short Description | Planed for Version | Related Links |
+| ---- | ----------------- | ------------------ | ------------- |
+| xxxx | xxxx              | xxxx               |               |

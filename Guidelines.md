@@ -39,6 +39,12 @@ Types hint at the purpose of the device, server or component and helps ensuring 
 | Request     | req   | Get data, with no user input                                            | Components           |
 | Report      | rep   | Post or modify data                                                     | Components           |
 
+## Versioning
+
+Use [Semantic Versioning](https://semver.org/), but for programs with no public API, that requirement is ignored.
+
+When releasing a new version, there always needs to be a release note, added to the releases.md file.
+
 ## Base User Roles
 
 The Base User Roles are a general way categorizing different levels of access. For each individual program, different names and sub levels can be used, but they all need to have a base role assigned, for the global eco system. They can also be thought of as global role identifiers or a broad category. Imagine a Cessna and Airbus A380, which can do different things, but are both categorized as fixed-wing aircraft.
@@ -55,9 +61,10 @@ The naming and structure of the sub-roles just need to fit for it's environment.
 
 Different files are requiered, depending on what something does. Example files can be found in schema folder.
 
-| File Name | File Type   | Content                                                                     | Requiered for                | If                   |
-| --------- | ----------- | --------------------------------------------------------------------------- | ---------------------------- | -------------------- |
-| roles     | .json       | Detailed description of avaiable roles and their permissions                | programs                     | an account is needed |
-| readme    | .md         | Details of the structure (brief description, list of devices, servers, etc) | server, programs, components | always               |
-| features  | .md         | List of implemented and planed features, with short description             | server, programs, components | always               |
-| colors    | .sass, .css | Liste of colors, containing hex, rgba and hsla values                       | programs, components         | own colors are used  |
+| File Name     | File Type   | Content                                                                     | Requiered for                | If                   |
+| ------------- | ----------- | --------------------------------------------------------------------------- | ---------------------------- | -------------------- |
+| roles         | .json       | Detailed description of avaiable roles and their permissions                | programs                     | an account is needed |
+| readme        | .md         | Details of the structure (brief description, list of devices, servers, etc) | server, programs, components | always               |
+| release-notes | .md         | List of release notes, separated by a horizontal line                       | server, programs, components | always               |
+| features      | .md         | List of implemented and planed features, with short description             | server, programs, components | always               |
+| colors        | .sass, .css | Liste of colors, containing hex, rgba and hsla values                       | programs, components         | own colors are used  |
