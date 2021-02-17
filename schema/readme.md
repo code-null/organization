@@ -19,13 +19,13 @@ Latest Stable Version: xxx
 
 ## Databases
 
-| Host | Type | Database Name | Used for |
-| ---- | ---- | ------------- | -------- |
-| xxxx | xxxx | xxxx          | xxxx     |
+| Host | Type | Database Name | Used for | Access       |
+| ---- | ---- | ------------- | -------- | ------------ |
+| xxxx | xxxx | xxxx          | xxxx     | API / direct |
 
 ## Exposed APIs
 
-None, table that describes the APIs or link to a separte documentation file
+None, table that describes the APIs or link to a separte documentation file. If there are more than 5 APIs, there always must be a separate file (apis.md)
 
 ## Example
 

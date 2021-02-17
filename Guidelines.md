@@ -17,12 +17,12 @@ The naming convention helps with consitent naming and identifying what each stac
 
 ### Naming Table
 
-| Stack      | Technical ID | Reference Name          | Official Name                | Example 1                               | Example 2                           |
-| ---------- | ------------ | ----------------------- | ---------------------------- | --------------------------------------- | ----------------------------------- |
-| Devices    | D\#\#\#\#    | {any}                   | (Code) Delta " or D-\#\#\#\# | DZTDI - raspi - Delta Omega             | DHOLW - homeComputer - D-HOLW       |
-| Servers    | S%%%%        | {serverFunction}Server  | (Code) Sierra " or S-%%%%    | S1452 - mngCaseiumServer - Sierra Alpha | S1352 - comSideToMain - Code S-135  |
-| Programs   | P\#%%%       | {officialNameW/O"Code"} | (Code) ?(?-\*\*\*\*)         | PC133 - caesium - Code Caesium          | PRT02 - roamingTool - Roaming-Tool  |
-| Components | C\+\+\+\+    | {functionType}          | ?(?-\*\*\*\*)                | C1508 - mainMenuIn - Main Menu          | C4587 - alertModalOut - Alert-Modal |
+| Stack      | Technical ID | Reference Name          | Official Name                | Example 1                               | Example 2                                |
+| ---------- | ------------ | ----------------------- | ---------------------------- | --------------------------------------- | ---------------------------------------- |
+| Devices    | D\#\#\#\#    | {any}                   | (Code) Delta " or D-\#\#\#\# | DZTDI - raspi - Delta Omega             | DHOLW - homeComputer - D-HOLW            |
+| Servers    | S%%%%        | {serverFunction}Server  | (Code) Sierra " or S-%%%%    | S1452 - mngCaseiumServer - Sierra Alpha | S1352 - comSideToMainServer - Code S-135 |
+| Programs   | P\#%%%       | {officialNameW/O"Code"} | (Code) ?(?-\*\*\*\*)         | PC133 - caesium - Code Caesium          | PRT02 - roamingTool - Roaming-Tool       |
+| Components | C\+\+\+\+    | {functionType}          | ?(?-\*\*\*\*)                | C1508 - mainMenuIn - Main Menu          | C4587 - alertModalOut - Alert-Modal      |
 
 ## Types
 
@@ -61,10 +61,11 @@ The naming and structure of the sub-roles just need to fit for it's environment.
 
 Different files are requiered, depending on what something does. Example files can be found in schema folder.
 
-| File Name     | File Type   | Content                                                                     | Requiered for                | If                   |
-| ------------- | ----------- | --------------------------------------------------------------------------- | ---------------------------- | -------------------- |
-| roles         | .json       | Detailed description of avaiable roles and their permissions                | programs                     | an account is needed |
-| readme        | .md         | Details of the structure (brief description, list of devices, servers, etc) | server, programs, components | always               |
-| release-notes | .md         | List of release notes, separated by a horizontal line                       | server, programs, components | always               |
-| features      | .md         | List of implemented and planed features, with short description             | server, programs, components | always               |
-| colors        | .sass, .css | Liste of colors, containing hex, rgba and hsla values                       | programs, components         | own colors are used  |
+| File Name     | File Type   | Content                                                                     | Requiered for                 | If                   |
+| ------------- | ----------- | --------------------------------------------------------------------------- | ----------------------------- | -------------------- |
+| roles         | .json       | Detailed description of avaiable roles and their permissions                | programs                      | an account is needed |
+| README        | .md         | Details of the structure (brief description, list of devices, servers, etc) | server, programs, components  | always               |
+| release-notes | .md         | List of release notes, separated by a horizontal line                       | server, programs, components  | always               |
+| features      | .md         | List of implemented and planed features, with short description             | programs, components          | always               |
+| apis          | .md         | List of implemented and planed APIs, with short description                 | servers, programs, components | more than 5 APIs     |
+| colors        | .sass, .css | Liste of colors, containing hex, rgba and hsla values                       | programs, components          | own colors are used  |
