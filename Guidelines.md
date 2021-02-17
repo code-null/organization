@@ -28,14 +28,16 @@ The naming convention helps with consitent naming and identifying what each stac
 
 Types hint at the purpose of the device, server or component and helps ensuring it is only doing one thing. This way there should't be any side effects.
 
-|             | Short | Description                                                             | Used for        |
-| ----------- | ----- | ----------------------------------------------------------------------- | --------------- |
-| Manage      | mng   | Accessing databases for read/write operations and return data           | Devices, Server |
-| Communicate | com   | Handling communication between two or more programs, servers or devices | Devices, Server |
-| Input       | in    | Getting user input                                                      | Components      |
-| Output      | out   | Displaying data only                                                    | Components      |
-| Inquire     | inq   | Communicating with a server to get data                                 | Components      |
-| Engage      | eng   | Communicating with a server to post or modify data                      | Components      |
+|             | Short | Description                                                             | Used for             |
+| ----------- | ----- | ----------------------------------------------------------------------- | -------------------- |
+| Manage      | mng   | Accessing databases for read/write operations and return data           | Devices, Server      |
+| Communicate | com   | Handling communication between two or more programs, servers or devices | Devices, Server      |
+| Record      | rec   | Storing data of some kind and provide a way to display them             | Programs, Components |
+| Inquire     | inq   | Displaying or generating data based on user input                       | Programs, Components |
+| Input       | in    | Getting user input                                                      | Components           |
+| Output      | out   | Displaying data only                                                    | Components           |
+| Request     | req   | Get data, with no user input                                            | Components           |
+| Report      | rep   | Post or modify data                                                     | Components           |
 
 ## Base User Roles
 
