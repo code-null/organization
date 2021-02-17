@@ -58,5 +58,6 @@ Different files are requiered, depending on what something does. Example files c
 | File Name | File Type   | Content                                                                     | Requiered for                | If                   |
 | --------- | ----------- | --------------------------------------------------------------------------- | ---------------------------- | -------------------- |
 | roles     | .json       | Detailed description of avaiable roles and their permissions                | programs                     | an account is needed |
-| structure | .md         | Details of the structure (brief description, list of devices, servers, etc) | server, programs, components | always               |
+| readme    | .md         | Details of the structure (brief description, list of devices, servers, etc) | server, programs, components | always               |
+| features  | .md         | List of implemented and planed features, with short description             | server, programs, components | always               |
 | colors    | .sass, .css | Liste of colors, containing hex, rgba and hsla values                       | programs, components         | own colors are used  |
