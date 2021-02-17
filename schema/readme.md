@@ -9,9 +9,9 @@ Latest Stable Version: xxx
 
 ## Technical Details
 
-| Stack | Technical ID | Reference Name | Official Name | Type | Requieres Accounts |
-| ----- | ------------ | -------------- | ------------- | ---- | ------------------ |
-| xxxx  | xxxx         | xxxx           | xxxx          | xxxx | true/false         |
+| Stack | Technical ID | Reference Name | Official Name | Type | Requires Accounts | Technology |
+| ----- | ------------ | -------------- | ------------- | ---- | ----------------- | ---------- |
+| xxxx  | xxxx         | xxxx           | xxxx          | xxxx | true/false        | xxxxxxx    |
 
 ## Dependencies to other Devices, Server, Programms, Components
 
