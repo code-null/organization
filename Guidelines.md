@@ -69,3 +69,9 @@ Different files are requiered, depending on what something does. Example files c
 | features      | .md         | List of implemented and planed features, with short description             | programs, components          | always               |
 | apis          | .md         | List of implemented and planed APIs, with short description                 | servers, programs, components | more than 5 APIs     |
 | colors        | .sass, .css | Liste of colors, containing hex, rgba and hsla values                       | programs, components          | own colors are used  |
+
+## Flowcharts
+
+For a consistent design of flow charts, to portrait how a program works, there is a library in the schema folder. Besides that there is an overview of all elements.
+
+Flow charts are made with [draw.io / diagrams.net](https://www.diagrams.net/). There is a desktop application, which can be downloaded for the [GitHub repository](https://github.com/jgraph/drawio-desktop)
