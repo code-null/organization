@@ -61,14 +61,15 @@ The naming and structure of the sub-roles just need to fit for it's environment.
 
 Different files are requiered, depending on what something does. Example files can be found in schema folder.
 
-| File Name     | File Type   | Content                                                                     | Requiered for                 | If                   |
-| ------------- | ----------- | --------------------------------------------------------------------------- | ----------------------------- | -------------------- |
-| roles         | .json       | Detailed description of avaiable roles and their permissions                | programs                      | an account is needed |
-| README        | .md         | Details of the structure (brief description, list of devices, servers, etc) | server, programs, components  | always               |
-| release_notes | .md         | List of release notes, separated by a horizontal line                       | server, programs, components  | always               |
-| features      | .md         | List of implemented and planed features, with short description             | programs, components          | always               |
-| apis          | .md         | List of implemented and planed APIs, with short description                 | servers, programs, components | more than 5 APIs     |
-| colors        | .sass, .css | Liste of colors, containing hex, rgba and hsla values                       | programs, components          | own colors are used  |
+| File Name     | File Type   | Content                                                                     | Requiered for                 | If                    |
+| ------------- | ----------- | --------------------------------------------------------------------------- | ----------------------------- | --------------------- |
+| roles         | .json       | Detailed description of avaiable roles and their permissions                | programs                      | an account is needed  |
+| README        | .md         | Details of the structure (brief description, list of devices, servers, etc) | server, programs, components  | always                |
+| LICENSE       | any         | Provide details about the license                                           | server, programs, components  | uses specific license |
+| release_notes | .md         | List of release notes, separated by a horizontal line                       | server, programs, components  | always                |
+| features      | .md         | List of implemented and planed features, with short description             | programs, components          | always                |
+| apis          | .md         | List of implemented and planed APIs, with short description                 | servers, programs, components | more than 5 APIs      |
+| colors        | .sass, .css | Liste of colors, containing hex, rgba and hsla values                       | programs, components          | own colors are used   |
 
 ## Flowcharts
 
@@ -85,3 +86,4 @@ Flow charts are made with [draw.io / diagrams.net](https://www.diagrams.net/). T
 | Other Files                                          | All lowercase with snake casing                              | profile_icon.psd              |
 | Other Folders                                        | First letter uppercase and snake casing, prefer one word     | Graphics, Icons_And_Logos     |
 | Repositories                                         | Camel Casing                                                 | mngCaesiumServer              |
+| License Files                                        | All uppercase                                                | LICENSE                       |
