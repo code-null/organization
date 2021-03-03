@@ -1,4 +1,4 @@
-# Guidelines
+# Guidelines v1.3.0
 
 ## Naming conventions
 
@@ -63,11 +63,11 @@ Different files are requiered, depending on what something does. Example files c
 
 | File Name     | File Type   | Content                                                                     | Requiered for                 | If                    |
 | ------------- | ----------- | --------------------------------------------------------------------------- | ----------------------------- | --------------------- |
-| roles         | .json       | Detailed description of avaiable roles and their permissions                | programs                      | an account is needed  |
 | README        | .md         | Details of the structure (brief description, list of devices, servers, etc) | server, programs, components  | always                |
-| LICENSE       | any         | Provide details about the license                                           | server, programs, components  | uses specific license |
 | release_notes | .md         | List of release notes, separated by a horizontal line                       | server, programs, components  | always                |
 | features      | .md         | List of implemented and planed features, with short description             | programs, components          | always                |
+| roles         | .json       | Detailed description of avaiable roles and their permissions                | programs                      | an account is needed  |
+| LICENSE       | any         | Provide details about the license                                           | server, programs, components  | uses specific license |
 | apis          | .md         | List of implemented and planed APIs, with short description                 | servers, programs, components | more than 5 APIs      |
 | colors        | .sass, .css | Liste of colors, containing hex, rgba and hsla values                       | programs, components          | own colors are used   |
 
@@ -75,7 +75,7 @@ Different files are requiered, depending on what something does. Example files c
 
 For a consistent design of flow charts, to portrait how a program works, there is a library in the schema folder. Besides that there is an overview of all elements.
 
-Flow charts are made with [draw.io / diagrams.net](https://www.diagrams.net/). There is a desktop application, which can be downloaded for the [GitHub repository](https://github.com/jgraph/drawio-desktop)
+Flow charts are made with [draw.io / diagrams.net](https://www.diagrams.net/). There is a desktop application, which can be downloaded from the [GitHub repository](https://github.com/jgraph/drawio-desktop)
 
 ## File Names
 
