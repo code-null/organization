@@ -35,6 +35,22 @@ None, table that describes the APIs or link to a separte documentation file. If 
 | ---------- | ---- | ----------------- | ------------------------------ | ---------------- |
 | /feed/post | POST | Creates new posts | title: string, content: string | success: boolean |
 
+## Exposed Components
+
+None, table that describes the components or link to a separte documentation file. If there are more than 5 components, there always must be a separate file (components.md).
+
+### name of component goes here
+
+| HTML Selector | Technical ID | Reference Name | Official Name | Type | Description |
+| ------------- | ------------ | -------------- | ------------- | ---- | ----------- |
+| xxxx          | xxxx         | xxxx           | xxxx          | xxxx | xxxx        |
+
+#### Attributes and Methods
+
+| Name | Type | Description | Expects | returns |
+| ---- | ---- | ----------- | ------- | ------- |
+| xxxx | xxxx | xxxx        | xxxx    | xxxx    |
+
 ## Notes
 
 Anything else that should be mentioned
