@@ -1,43 +1,6 @@
-# Guidelines v1.3.0
+# Guidelines v2.0.0
 
-## Naming conventions
-
-The naming convention helps with consitent naming and identifying what each stack is.
-
-### Symbols
-
-\* = Any Character  
-\+ = Number  
-\# = Letter  
-% = Letter or number  
-" = Nato Alphabet  
-? = Word  
-() = Optional  
-{} = Interpolation using camel casing
-
-### Naming Table
-
-| Stack      | Technical ID | Reference Name          | Official Name                | Example 1                               | Example 2                                |
-| ---------- | ------------ | ----------------------- | ---------------------------- | --------------------------------------- | ---------------------------------------- |
-| Devices    | D\#\#\#\#    | {any}                   | (Code) Delta " or D-\#\#\#\# | DZTDI - raspi - Delta Omega             | DHOLW - homeComputer - D-HOLW            |
-| Servers    | S%%%%        | {serverFunction}Server  | (Code) Sierra " or S-%%%%    | S1452 - mngCaseiumServer - Sierra Alpha | S1352 - comSideToMainServer - Code S-135 |
-| Programs   | P\#%%%       | {officialNameW/O"Code"} | (Code) ?(?-\*\*\*\*)         | PC133 - caesium - Code Caesium          | PRT02 - roamingTool - Roaming-Tool       |
-| Components | C\+\+\+\+    | {functionType}          | ?(?-\*\*\*\*)                | C1508 - mainMenuIn - Main Menu          | C4587 - alertModalOut - Alert-Modal      |
-
-## Types
-
-Types hint at the purpose of the device, server or component and helps ensuring it is only doing one thing. This way there should't be any side effects.
-
-|             | Short | Description                                                             | Used for             |
-| ----------- | ----- | ----------------------------------------------------------------------- | -------------------- |
-| Manage      | mng   | Accessing databases for read/write operations and return data           | Devices, Server      |
-| Communicate | com   | Handling communication between two or more programs, servers or devices | Devices, Server      |
-| Record      | rec   | Storing data of some kind and provide a way to display them             | Programs, Components |
-| Inquire     | inq   | Displaying or generating data based on user input                       | Programs, Components |
-| Input       | in    | Getting user input                                                      | Components           |
-| Output      | out   | Displaying data only                                                    | Components           |
-| Request     | req   | Get data, with no user input                                            | Components           |
-| Report      | rep   | Post or modify data                                                     | Components           |
+## Definitions
 
 ## Versioning
 
@@ -77,7 +40,32 @@ For a consistent design of flow charts, to portrait how a program works, there i
 
 Flow charts are made with [draw.io / diagrams.net](https://www.diagrams.net/). There is a desktop application, which can be downloaded from the [GitHub repository](https://github.com/jgraph/drawio-desktop)
 
-## File Names
+## Naming conventions
+
+The naming convention helps with consitent naming and identifying what each stack is.
+
+### Symbols
+
+\* = Any Character  
+\+ = Number  
+\# = Letter  
+% = Letter or number  
+" = Nato Alphabet  
+? = Word  
+() = Optional  
+{} = Interpolation using camel casing
+
+### Stacks
+
+| Stack      | Technical ID                | Reference Name          | Official Name                | Example                                      |
+| ---------- | --------------------------- | ----------------------- | ---------------------------- | -------------------------------------------- |
+| Devices    | D\#\#\#\#                   | {any}                   | (Code) Delta " or D-\#\#\#\# | DZTDI - raspi - Delta Omega                  |
+| Servers    | S%%%%                       | {serverFunction}Server  | (Code) Sierra " or S-%%%%    | S1452 - mngCaseiumServer - Sierra Alpha      |
+| Programs   | P\#%%%                      | {officialNameW/O"Code"} | (Code) ?(?-\*\*\*\*)         | PC133 - caesium - Code Caesium               |
+| Components | C\+\+\+\+                   | (prefix){functionType}  | ?(?-\*\*\*\*)                | C1508 - mainMenuIn - Main Menu               |
+| Sub-Stack  | {t-id}\_{stack prefix}%(%%) | (prefix){functionType}  | ?(?-\*\*\*\*)                | C0001_C1 - cnCheckboxIn - code null checkbox |
+
+### File Names
 
 | File Type                                            | Casing Style                                                 | Example                       |
 | ---------------------------------------------------- | ------------------------------------------------------------ | ----------------------------- |
@@ -87,3 +75,18 @@ Flow charts are made with [draw.io / diagrams.net](https://www.diagrams.net/). T
 | Other Folders                                        | First letter uppercase and snake casing, prefer one word     | Graphics, Icons_And_Logos     |
 | Repositories                                         | Camel Casing                                                 | mngCaesiumServer              |
 | License Files                                        | All uppercase                                                | LICENSE                       |
+
+## Types
+
+Types hint at the purpose of the device, server or component and helps ensuring it is only doing one thing. This way there should't be any side effects.
+
+|             | Short | Description                                                             | Used for             |
+| ----------- | ----- | ----------------------------------------------------------------------- | -------------------- |
+| Manage      | mng   | Accessing databases for read/write operations and return data           | Devices, Server      |
+| Communicate | com   | Handling communication between two or more programs, servers or devices | Devices, Server      |
+| Record      | rec   | Storing data of some kind and provide a way to display them             | Programs, Components |
+| Inquire     | inq   | Displaying or generating data based on user input                       | Programs, Components |
+| Input       | in    | Getting user input                                                      | Components           |
+| Output      | out   | Displaying data only                                                    | Components           |
+| Request     | req   | Get data, with no user input                                            | Components           |
+| Report      | rep   | Post or modify data                                                     | Components           |
