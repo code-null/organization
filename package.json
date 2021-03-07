@@ -5,7 +5,7 @@
 
   "scripts": {
     "watch-sass": "sass --watch src/styles/scss:src/styles/css",
-    "file-tree": "md-file-tree > list.md"
+    "file-tree": "md-file-tree > files.md"
   },
   "repository": {
     "type": "git",
