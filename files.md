@@ -3,8 +3,8 @@
 - [README.md](README.md)
 - **archive**
   - [guidelines_v1_3_0.md](archive/guidelines_v1_3_0.md)
+- [files.md](files.md)
 - [guidelines.md](guidelines.md)
-- [list.md](list.md)
 - [node_modules](node_modules)
 - [package\-lock.json](package-lock.json)
 - [package.json](package.json)
@@ -15,7 +15,7 @@
     - [release_notes.md](src/examples/release_notes.md)
     - [roles.json](src/examples/roles.json)
   - **resources**
-    - [code_null_icon_32px.png](src/resources/code_null_icon_32px.png)
+    - [code_null_icon_32.png](src/resources/code_null_icon_32.png)
     - [code_nulll_library.xml](src/resources/code_nulll_library.xml)
     - [program_flow_chart_overview.svg](src/resources/program_flow_chart_overview.svg)
   - **styles**

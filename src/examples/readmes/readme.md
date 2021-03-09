@@ -11,9 +11,9 @@ Latest Stable Version: xxx
 
 ## Technical Details
 
-| Stack | Technical ID | Reference Name | Official Name | Type | Requires Accounts | Technology |
-| ----- | ------------ | -------------- | ------------- | ---- | ----------------- | ---------- |
-| xxxx  | xxxx         | xxxx           | xxxx          | xxxx | true/false        | xxxxxxx    |
+| Segment | Technical ID | Reference Name | Official Name | Type | Requires Accounts | Technology | Versioning |
+| ------- | ------------ | -------------- | ------------- | ---- | ----------------- | ---------- | ---------- |
+| xxxx    | xxxx         | xxxx           | xxxx          | xxxx | true/false        | xxxxxxx    | xxxx       |
 
 ## Dependencies to other Devices, Server, Programms, Components
 
@@ -37,7 +37,7 @@ None, table that describes the APIs or link to a separte documentation file. If 
 
 ## Exposed Components
 
-None, table that describes the components or link to a separte documentation file. If there are more than 5 components, there always must be a separate file (components.md).
+None, table that describes the components or link to a separte documentation file. If there are more than 3 components, there always must be a separate file (components.md).
 
 ### name of component goes here
 
