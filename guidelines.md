@@ -42,7 +42,7 @@ It is recommended to use either best practices for your specific programming lan
 
 When releasing a new version, there always needs to be a release note, added to the releases.md file. If a new version should be released, depends on the judgement of the project members or owner. Ultimately it should be reasonable for the project.
 
-To easily link to the CNV, it was separated from this document and can be found in the [resources folder](src/resources/cn_versioning.md).
+To easily link to the CNV, it was separated from this document and can be found in the [resources folder](resources/cn_versioning.md).
 
 ## **Types**
 

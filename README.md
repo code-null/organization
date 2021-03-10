@@ -6,6 +6,12 @@ The goal of this standard is, to have consistent naming and structure across mul
 
 Feel free to use this standard for your own projects and suggest any missing pieces that should be included.
 
+## Quick Links
+
+[Guidelines](guidelines.md)
+[Templates](resources/templates)
+[Examples](resources/examples)
+
 ## Contents
 
 - [README.md](README.md)
