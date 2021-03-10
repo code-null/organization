@@ -1,10 +1,10 @@
 {
   "name": "organization",
   "version": "1.0.0",
-  "description": "Contains all files, related to guidlines and examples.",
+  "description": "Contains all files, related to guidelines and examples.",
 
   "scripts": {
-    "watch-sass": "sass --watch src/styles/scss:src/styles/css",
+    "watch-sass": "sass --watch resources/styles/scss:resources/styles/css",
     "file-tree": "md-file-tree > files.md"
   },
   "repository": {
