@@ -98,28 +98,28 @@ body {
   padding: 0.25rem;
 }
 .theme--default .cn-text-input {
-  outline-color: #76bbef;
+  outline-color: #4974d6;
 }
 .theme--light .cn-text-input {
-  outline-color: #000e17;
+  outline-color: #073282;
 }
 .theme--cn-green .cn-text-input {
-  outline-color: #4fd44f;
+  outline-color: #2be35f;
 }
 .theme--cn-green-light .cn-text-input {
-  outline-color: #040f04;
+  outline-color: #045c47;
 }
 .theme--cn-orange .cn-text-input {
-  outline-color: #ffaf5f;
+  outline-color: #e89e23;
 }
 .theme--cn-orange-light .cn-text-input {
-  outline-color: #170c00;
+  outline-color: #805406;
 }
 .theme--cn-violet .cn-text-input {
-  outline-color: #e1cde1;
+  outline-color: #f0c7db;
 }
 .theme--cn-violet-light .cn-text-input {
-  outline-color: #170a1c;
+  outline-color: #993198;
 }
 
 .cn-button {
@@ -162,35 +162,35 @@ body {
 }
 
 .theme--default .cn-button:active {
-  background-color: #76bbef;
+  background-color: #4974d6;
   color: #1d1d1d;
 }
 .theme--light .cn-button:active {
-  background-color: #000e17;
+  background-color: #073282;
   color: #f3f3f3;
 }
 .theme--cn-green .cn-button:active {
-  background-color: #4fd44f;
+  background-color: #2be35f;
   color: #1d1d1d;
 }
 .theme--cn-green-light .cn-button:active {
-  background-color: #040f04;
+  background-color: #045c47;
   color: #f3f3f3;
 }
 .theme--cn-orange .cn-button:active {
-  background-color: #ffaf5f;
+  background-color: #e89e23;
   color: #1d1d1d;
 }
 .theme--cn-orange-light .cn-button:active {
-  background-color: #170c00;
+  background-color: #805406;
   color: #f3f3f3;
 }
 .theme--cn-violet .cn-button:active {
-  background-color: #e1cde1;
+  background-color: #f0c7db;
   color: #1d1d1d;
 }
 .theme--cn-violet-light .cn-button:active {
-  background-color: #170a1c;
+  background-color: #993198;
   color: #f3f3f3;
 }
 
@@ -352,28 +352,28 @@ body {
 }
 
 .theme--default .cn-radio-wrapper:focus-within .cn-radio-label {
-  color: #76bbef;
+  color: #4974d6;
 }
 .theme--light .cn-radio-wrapper:focus-within .cn-radio-label {
-  color: #000e17;
+  color: #073282;
 }
 .theme--cn-green .cn-radio-wrapper:focus-within .cn-radio-label {
-  color: #4fd44f;
+  color: #2be35f;
 }
 .theme--cn-green-light .cn-radio-wrapper:focus-within .cn-radio-label {
-  color: #040f04;
+  color: #045c47;
 }
 .theme--cn-orange .cn-radio-wrapper:focus-within .cn-radio-label {
-  color: #ffaf5f;
+  color: #e89e23;
 }
 .theme--cn-orange-light .cn-radio-wrapper:focus-within .cn-radio-label {
-  color: #170c00;
+  color: #805406;
 }
 .theme--cn-violet .cn-radio-wrapper:focus-within .cn-radio-label {
-  color: #e1cde1;
+  color: #f0c7db;
 }
 .theme--cn-violet-light .cn-radio-wrapper:focus-within .cn-radio-label {
-  color: #170a1c;
+  color: #993198;
 }
 
 .cn-radio-label {

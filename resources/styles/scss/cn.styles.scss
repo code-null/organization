@@ -53,7 +53,7 @@ body {
 	padding: 0.25rem;
 	@include color.themed() {
 		// background-color: color.theme('card-bg');
-		outline-color: color.theme('primary-color-medium');
+		outline-color: color.theme('secondary-color');
 	}
 }
 
@@ -74,7 +74,7 @@ body {
 
 .cn-button:active {
 	@include color.themed() {
-		background-color: color.theme('primary-color-medium');
+		background-color: color.theme('secondary-color');
 		color: color.theme('text-button-active');
 	}
 }
@@ -171,7 +171,7 @@ body {
 
 .cn-radio-wrapper:focus-within .cn-radio-label {
 	@include color.themed() {
-		color: color.theme('primary-color-medium');
+		color: color.theme('secondary-color');
 	}
 }
 
