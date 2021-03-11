@@ -1,0 +1,26 @@
+{
+  "name": "organization",
+  "version": "1.0.0",
+  "description": "Contains all files, related to guidelines and examples.",
+
+  "scripts": {
+    "watch-sass": "sass --watch resources/styles/scss:resources/styles/css",
+    "file-tree": "md-file-tree > files.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-null/organization.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-null/organization/issues"
+  },
+  "homepage": "https://github.com/code-null/organization#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-nightly.620",
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.32.8"
+  }
+}

@@ -1,6 +1,6 @@
 # Release Notes for Name
 
-## Version x.y.z
+## Version w.x.y.z
 
 Summary goes here
 
@@ -19,5 +19,3 @@ Summary goes here
 ### Other
 
 - List of everything else note worthy
-
----

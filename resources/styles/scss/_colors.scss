@@ -1,0 +1,161 @@
+// Base Colors -  Blue Jeans
+$cn-blue: #5dadec;
+$cn-blue-medium: #76bbef;
+$cn-blue-complementary: #ec9c5f;
+$cn-blue-dark: #00416a; // Indigo Dye
+$cn-blue-very-dark: #000e17;
+$cn-blue-dark-complementary: #6b2900;
+
+// Base Colors -  Lime Green
+$cn-green: #32cd32;
+$cn-green-medium: #4fd44f;
+$cn-green-complementary: #cd32cd;
+$cn-green-dark: #014421; // Forest Green Traditional;
+$cn-green-very-dark: #040f04;
+$cn-green-dark-complementary: #460125;
+
+// Base Colors -  Deep Saffron
+$cn-orange: #ff9933;
+$cn-orange-medium: #ffaf5f;
+$cn-orange-complementary: #3399ff;
+$cn-orange-dark: #693600; // Sepia
+$cn-orange-very-dark: #170c00;
+$cn-orange-dark-complementary: #00346b;
+
+// Base Colors -  Thistle
+$cn-violet: #d8bfd8;
+$cn-violet-medium: #e1cde1;
+$cn-violet-complementary: #c0d8c0;
+$cn-violet-dark: #6c3082; // Eminence
+$cn-violet-very-dark: #170a1c;
+$cn-violet-dark-complementary: #468230;
+
+// Warning and Attention Colors
+$cn-alert: #b94941;
+$cn-warn: #ffca28;
+
+// Dark Colors
+$cn-dark: #1b1b1b;
+$cn-light-grey: #7d7d7d;
+$cn-medium-grey: #474747;
+$cn-dark-grey: #2c2c2c;
+
+// Text Colors
+$cn-light-text: #f3f3f3;
+$cn-light-text-2: #e2e2e2;
+$cn-dark-text: #1d1d1d;
+$cn-dark-text-2: #2a2a2a;
+
+$themes: (
+	default: (
+		bg: $cn-dark,
+		card-bg: $cn-medium-grey,
+		text: $cn-light-text,
+		text-secondary: $cn-light-text-2,
+		text-button: $cn-light-text,
+		text-button-active: $cn-dark-text,
+		primary-color: $cn-blue,
+		primary-color-medium: $cn-blue-medium,
+		secondary-color: $cn-blue-complementary,
+	),
+	light: (
+		bg: white,
+		card-bg: $cn-medium-grey,
+		text: $cn-dark-text,
+		text-secondary: $cn-dark-text-2,
+		text-button: $cn-dark-text,
+		text-button-active: $cn-light-text,
+		primary-color: $cn-blue-dark,
+		primary-color-medium: $cn-blue-very-dark,
+		secondary-color: $cn-blue-dark-complementary,
+	),
+	cn-green: (
+		bg: $cn-dark,
+		card-bg: $cn-medium-grey,
+		text: $cn-light-text,
+		text-secondary: $cn-light-text-2,
+		text-button: $cn-light-text,
+		text-button-active: $cn-dark-text,
+		primary-color: $cn-green,
+		primary-color-medium: $cn-green-medium,
+		secondary-color: $cn-green-complementary,
+	),
+	cn-green-light: (
+		bg: white,
+		card-bg: $cn-medium-grey,
+		text: $cn-dark-text,
+		text-secondary: $cn-dark-text-2,
+		text-button: $cn-dark-text,
+		text-button-active: $cn-light-text,
+		primary-color: $cn-green-dark,
+		primary-color-medium: $cn-green-very-dark,
+		secondary-color: $cn-green-dark-complementary,
+	),
+	cn-orange: (
+		bg: $cn-dark,
+		card-bg: $cn-medium-grey,
+		text: $cn-light-text,
+		text-secondary: $cn-light-text-2,
+		text-button: $cn-light-text,
+		text-button-active: $cn-dark-text,
+		primary-color: $cn-orange,
+		primary-color-medium: $cn-orange-medium,
+		secondary-color: $cn-orange-complementary,
+	),
+	cn-orange-light: (
+		bg: white,
+		card-bg: $cn-medium-grey,
+		text: $cn-dark-text,
+		text-secondary: $cn-dark-text-2,
+		text-button: $cn-dark-text,
+		text-button-active: $cn-light-text,
+		primary-color: $cn-orange-dark,
+		primary-color-medium: $cn-orange-very-dark,
+		secondary-color: $cn-orange-dark-complementary,
+	),
+	cn-violet: (
+		bg: $cn-dark,
+		card-bg: $cn-medium-grey,
+		text: $cn-light-text,
+		text-secondary: $cn-light-text-2,
+		text-button: $cn-light-text,
+		text-button-active: $cn-dark-text,
+		primary-color: $cn-violet,
+		primary-color-medium: $cn-violet-medium,
+		secondary-color: $cn-violet-complementary,
+	),
+	cn-violet-light: (
+		bg: white,
+		card-bg: $cn-medium-grey,
+		text: $cn-dark-text,
+		text-secondary: $cn-dark-text-2,
+		text-button: $cn-dark-text,
+		text-button-active: $cn-light-text,
+		primary-color: $cn-violet-dark,
+		primary-color-medium: $cn-violet-very-dark,
+		secondary-color: $cn-violet-dark-complementary,
+	),
+);
+
+@mixin themed() {
+	@each $theme, $map in $themes {
+		.theme--#{$theme} & {
+			$theme-map: () !global;
+			@each $key, $submap in $map {
+				$value: map-get(map-get($themes, $theme), '#{$key}');
+				$theme-map: map-merge(
+					$theme-map,
+					(
+						$key: $value,
+					)
+				) !global;
+			}
+			@content;
+			$theme-map: null !global;
+		}
+	}
+}
+
+@function theme($key) {
+	@return map-get($theme-map, $key);
+}

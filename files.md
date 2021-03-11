@@ -1,20 +1,5 @@
-# Organization
-
-This repository is a collection of files and guidelines, that help building a project with the code null standard.
-
-The goal of this standard is, to have consistent naming and structure across multiple projects, while maintaining flexibility for own additions or customization. That makes it easier to see what a different project, that you haven't worked on, is all about and what you are dealing with.
-
-Feel free to use this standard for your own projects and suggest any missing pieces that should be included.
-
-## Quick Links
-
-[Guidelines](guidelines.md)
-[Templates](resources/templates)
-[Examples](resources/examples)
-
-## Contents
-
-- [README.md](README.md)
+- **organization**
+  - [README.md](README.md)
   - [\_config.yml](_config.yml)
   - **archive**
     - **guidelines**

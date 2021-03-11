@@ -10,16 +10,6 @@
             "managedBy": ["roleId"],
             "manages": ["roleId"],
             "optionalFields" : "optional content in any form e.g. Files users with this role may open"
-        },
-        {
-            "roleId": "exampleRole02",
-            "rolename": "Team Leader 1st Level",
-            "baserole": "Admin",
-            "roleDescription": "For all Team Leaders of 1st Level Agents",
-            "permissions": ["perm001","perm003","perm104"],
-            "managedBy": ["exampleRole03"],
-            "manages": ["exampleRole01"],
-            "projects" : ["project1","project2"]
         }
     ]
 }
