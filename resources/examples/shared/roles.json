@@ -1,0 +1,45 @@
+{
+    "roles": [
+
+        {
+            "roleId": "exampleRole01",
+            "rolename": "1st Level Agent",
+            "baserole": "Unit",
+            "roleDescription": "1st Level Agents",
+            "permissions": ["perm001"],
+            "managedBy": ["exampleRole02"],
+            "manages": [],
+            "projects" : ["project1","project2"]
+        },
+        {
+            "roleId": "exampleRole02",
+            "rolename": "Team Leader 1st Level",
+            "baserole": "Admin",
+            "roleDescription": "For all Team Leaders of 1st Level Agents",
+            "permissions": ["perm001","perm003","perm104"],
+            "managedBy": ["exampleRole03"],
+            "manages": ["exampleRole01"],
+            "projects" : ["project1","project2"]
+        },
+        {
+            "roleId": "exampleRole03",
+            "rolename": "Project Manager",
+            "baserole": "Admin",
+            "roleDescription": "Highest available role",
+            "permissions": ["perm001","perm002","perm003","perm104"],
+            "managedBy": ["exampleRole04"],
+            "manages": ["exampleRole01","exampleRole02"],
+            "projects" : ["project1","project2"]
+        },
+        {
+            "roleId": "exampleRole04",
+            "rolename": "Super Admin",
+            "baserole": "Overwatch",
+            "roleDescription": "IT Department Leader Role",
+            "permissions": ["perm001","perm002","perm003","perm104","perm105"],
+            "managedBy": [],
+            "manages": ["exampleRole01","exampleRole02", "exampleRole03"],
+            "projects" : ["project1","project2","project3","project4","project5"]
+        }
+    ]
+}
