@@ -9,7 +9,9 @@ Feel free to use this standard for your own projects and suggest any missing pie
 ## Quick Links
 
 [Guidelines](guidelines.md)
+
 [Templates](resources/templates)
+
 [Examples](resources/examples)
 
 ## Contents
