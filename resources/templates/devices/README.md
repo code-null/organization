@@ -14,7 +14,7 @@ Latest Stable Version:
 
 | Segment | Device Type | Technical ID | Public ID | Official Name | Type | Requires Accounts | Technology | Versioning                                                                             |
 | ------- | ----------- | ------------ | --------- | ------------- | ---- | ----------------- | ---------- | -------------------------------------------------------------------------------------- |
-| Device  |             |              |           |               |      | true/false        |            | [Name of versioning w. version number if applicable](Link to details to documentation) |
+| Device  |       asas      |              |           |               |      | true/false        |            | [Name of versioning w. version number if applicable](Link to details to documentation) |
 
 ## Dependencies to connected Hardware, Sensors, other Devices, Servers, Programs, Components
 

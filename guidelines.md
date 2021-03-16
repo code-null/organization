@@ -42,7 +42,7 @@ It is recommended to use either best practices for your specific programming lan
 
 When releasing a new version, there always needs to be a release note, added to the releases.md file. If a new version should be released, depends on the judgement of the project members or owner. Ultimately it should be reasonable for the project.
 
-The CNV specifications are organized in an own repository and can be found [here](github.com/code-null/versioning)
+The CNV specifications are organized in an own repository and can be found [here](https://github.com/code-null/versioning)
 
 ## **Types**
 

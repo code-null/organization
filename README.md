@@ -10,7 +10,7 @@ Feel free to use this standard for your own projects and suggest any missing pie
 
 [Guidelines](guidelines.md)
 
-[Templates](resources/templates)
+  [Templates](resources/templates)
 
 [Examples](resources/examples)
 
