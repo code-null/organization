@@ -57,11 +57,12 @@ The naming and structure of the sub-roles just need to fit for it's environment.
 | Admin     | Is allowed to manipulate settings for a given program and manage users | Team-Leaders, Project-Managers                        |
 | Unit      | Can use program, within the limits set by an Admin                     | Endusers, Employees                                   |
 
-## Requiered files
+## 
+red files
 
 Different files are requiered, depending on what something does. Example files can be found in schema folder.
 
-| File Name     | File Type   | Content                                                                     | Requiered for                 | If                    |
+| File Name     | File Type   | Content                                                                     | Required for                 | If                    |
 | ------------- | ----------- | --------------------------------------------------------------------------- | ----------------------------- | --------------------- |
 | README        | .md         | Details of the structure (brief description, list of devices, servers, etc) | server, programs, components  | always                |
 | release_notes | .md         | List of release notes, separated by a horizontal line                       | server, programs, components  | always                |
