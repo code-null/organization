@@ -57,8 +57,7 @@ The naming and structure of the sub-roles just need to fit for it's environment.
 | Admin     | Is allowed to manipulate settings for a given program and manage users | Team-Leaders, Project-Managers                        |
 | Unit      | Can use program, within the limits set by an Admin                     | Endusers, Employees                                   |
 
-## 
-red files
+## Required files
 
 Different files are requiered, depending on what something does. Example files can be found in schema folder.
 
