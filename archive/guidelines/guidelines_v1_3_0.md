@@ -2,7 +2,7 @@
 
 ## Naming conventions
 
-The naming convention helps with consitent naming and identifying what each stack is.
+The naming convention helps with consistent naming and identifying what each stack is.
 
 ### Symbols
 
